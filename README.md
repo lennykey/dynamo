@@ -2,10 +2,11 @@
 ## Prerequisits
 * Download a Docker Container with DynamoDB Local
 * Start Docker Container
+* Check if DynamoDB is up and running using http://localhost:8000/shell/
 * Configure the Spring Boot Application with the connection with the URL of your running DynamoDB
 * Configure aws configure so that the region is e.g. us-east-1
 * Create via aws cli a table on the running DynamoDB local
-* Startup Spring Boot
+* Startup Spring Boot 
 * Go to http://localhost:8080/findall to verify if the application is running properly. You should see no error
 * Go to http://localhost:8080/save to create a couple of customers
 * Go to http://localhost:8080/findall to see if the created customers are available
